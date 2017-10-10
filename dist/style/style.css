@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500");
+html, body {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%; }
+
+.container {
+  max-width: 500px; }
+
+.element-card {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #676767;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
+  .element-card .image-container {
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; }
+  .element-card .description-container {
+    padding: 20px 25px 0; }
+    .element-card .description-container .description {
+      padding-bottom: 20px; }
+      .element-card .description-container .description h3 {
+        font-size: 1.8em;
+        margin: 0;
+        font-weight: 300; }
+      .element-card .description-container .description p {
+        line-height: 1.5em; }
+      .element-card .description-container .description .read-more {
+        color: #676767;
+        text-decoration: none;
+        font-weight: bold; }
+    .element-card .description-container .author {
+      border-top: 1px solid #e7e7e7;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0px; }
+      .element-card .description-container .author .author-bio {
+        display: flex;
+        align-items: center; }
+        .element-card .description-container .author .author-bio .author-image {
+          height: 30px;
+          width: 30px;
+          background-position: center;
+          background-size: cover;
+          border-radius: 50%; }
+        .element-card .description-container .author .author-bio .author-name {
+          padding-left: 10px;
+          font-size: 0.8em; }
+          .element-card .description-container .author .author-bio .author-name .lighter {
+            color: #b4b4b4; }
+      .element-card .description-container .author .more-button {
+        line-height: 2.3em; }
+        .element-card .description-container .author .more-button a {
+          background-color: #ffffff;
+          border: 2px solid #afafaf;
+          color: #969696;
+          font-size: 0.8em;
+          font-weight: 500;
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 0.6em 1em;
+          border-radius: 3px; }
